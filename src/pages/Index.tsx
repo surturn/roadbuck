@@ -5,7 +5,7 @@ import { ProductCard } from "@/components/ProductCard";
 import { ProductFilter } from "@/components/ProductFilter";
 import { TranslationProvider, useTranslation } from "@/contexts/TranslationContext";
 import { products } from "@/data/products";
-import { Product, ProductCategory } from "@/types/Product";
+import { Product, ProductCategory } from "@/data/products";
 import { toast } from "@/hooks/use-toast";
 
 const ProductsSection = () => {

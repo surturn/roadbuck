@@ -1,30 +1,3 @@
-export interface Product {
-  id: string;
-  name: string;
-  nameSwahili: string;
-  category: ProductCategory;
-  price?: string;
-  description: string;
-  descriptionSwahili: string;
-  features: string[];
-  featuresSwahili: string[];
-  specifications: Record<string, string>;
-  images: string[];
-  brochureUrl?: string;
-  inStock: boolean;
-}
-
-export type ProductCategory = 
-  | 'diagnosticTools'
-  | 'wheelAlignment' 
-  | 'balancingMachines'
-  | 'tyreSystems'
-  | 'garageLift';
-
-export const productCategories: ProductCategory[] = [
-  'diagnosticTools',
-  'wheelAlignment',
-  'balancingMachines', 
-  'tyreSystems',
-  'garageLift'
-];
+// Types moved to src/data/products/types.ts
+// Import from there instead
+export * from "../data/products/types";
