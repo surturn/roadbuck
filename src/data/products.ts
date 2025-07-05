@@ -1,6 +1,7 @@
 import { Product } from "@/types/Product";
 
 export const products: Product[] = [
+  // TYRE CHANGERS
   {
     id: "1",
     name: "V9120 Fully Automatic Tyre Changer",
@@ -35,44 +36,430 @@ export const products: Product[] = [
   },
   {
     id: "2",
-    name: "V7120 GT325 R Professional Tyre Changer",
-    nameSwahili: "V7120 GT325 R Mashine ya Kubadilisha Tairi ya Kitaalamu",
+    name: "V7120 Professional Tyre Changer",
+    nameSwahili: "V7120 Mashine ya Kubadilisha Tairi ya Kitaalamu",
     category: "tyreSystems",
-    price: "KSh 450,000",
-    description: "Heavy-duty professional tyre changer with multiple variants (PRO/SE/L/R) featuring automation levels, assist arms, and advanced functionality for demanding workshop operations.",
-    descriptionSwahili: "Mashine ya uzito mkuu ya kitaalamu ya kubadilisha tairi yenye aina mbalimbali (PRO/SE/L/R) zenye viwango vya otomatiki, mikono ya msaada, na utendaji wa hali ya juu kwa kazi ngumu za karakana.",
+    price: "KSh 350,000",
+    description: "Robust professional tyre changer with reliable performance and durable construction for high-volume workshop operations.",
+    descriptionSwahili: "Mashine madhubuti ya kitaalamu ya kubadilisha tairi yenye utendaji wa kutegemewa na ujenzi wa kudumu kwa kazi za karakana za wingi.",
     features: [
-      "Multiple automation variants",
-      "Heavy-duty construction",
-      "Professional assist arms",
-      "Advanced functionality",
-      "Workshop-grade reliability"
+      "Professional grade construction",
+      "High-volume capability",
+      "Reliable operation",
+      "Easy maintenance",
+      "Compact design"
     ],
     featuresSwahili: [
-      "Aina mbalimbali za otomatiki",
-      "Ujenzi wa uzito mkuu",
-      "Mikono ya msaada ya kitaalamu",
-      "Utendaji wa hali ya juu",
-      "Kutegemewa kwa kiwango cha karakana"
+      "Ujenzi wa kiwango cha kitaalamu",
+      "Uwezo wa wingi",
+      "Utendaji wa kutegemewa",
+      "Matengenezo rahisi",
+      "Muundo mdogo"
     ],
     specifications: {
-      "Model Range": "CT226 to Heavy-duty",
-      "Variants": "PRO/SE/L/R available",
-      "Assist Arms": "Professional grade",
-      "Automation": "Multiple levels",
-      "Construction": "Heavy-duty"
+      "Power Supply": "220V AC",
+      "Rim Diameter": "12\"-26\"",
+      "Operation Mode": "Semi-automatic",
+      "Construction": "Heavy-duty steel",
+      "Warranty": "2 Years"
     },
     images: ["/src/assets/v7120-tire-changer.jpg"],
     inStock: true
   },
   {
     id: "3",
+    name: "V9220 Heavy-Duty Tyre Changer",
+    nameSwahili: "V9220 Mashine ya Kubadilisha Tairi ya Uzito Mkuu",
+    category: "tyreSystems",
+    price: "KSh 420,000",
+    description: "Heavy-duty tyre changer designed for commercial applications with enhanced power and durability for truck and heavy vehicle tyres.",
+    descriptionSwahili: "Mashine ya uzito mkuu ya kubadilisha tairi iliyoundwa kwa matumizi ya kibiashara yenye nguvu iliyoongezwa na kudumu kwa tairi za malori na magari mazito.",
+    features: [
+      "Heavy-duty construction",
+      "Enhanced motor power",
+      "Truck tyre capability",
+      "Commercial grade",
+      "Extended warranty"
+    ],
+    featuresSwahili: [
+      "Ujenzi wa uzito mkuu",
+      "Nguvu ya injini iliyoongezwa",
+      "Uwezo wa tairi za malori",
+      "Kiwango cha kibiashara",
+      "Dhamana iliyoongezwa"
+    ],
+    specifications: {
+      "Power Supply": "380V 3-Phase",
+      "Motor Power": "2.2kW",
+      "Max Wheel Weight": "150kg",
+      "Rim Diameter": "14\"-28\"",
+      "Warranty": "3 Years"
+    },
+    images: ["/src/assets/v9220-tire-changer.jpg"],
+    inStock: true
+  },
+  {
+    id: "4",
+    name: "V500 SE Tyre Changer",
+    nameSwahili: "V500 SE Mashine ya Kubadilisha Tairi",
+    category: "tyreSystems",
+    price: "KSh 280,000",
+    description: "Standard edition tyre changer offering reliable performance and essential features for small to medium workshops at an affordable price.",
+    descriptionSwahili: "Mashine ya kawaida ya kubadilisha tairi inayotoa utendaji wa kutegemewa na vipengele muhimu kwa karakana ndogo hadi za kati kwa bei nafuu.",
+    features: [
+      "Essential features",
+      "Reliable performance",
+      "Cost-effective",
+      "User-friendly operation",
+      "Compact footprint"
+    ],
+    featuresSwahili: [
+      "Vipengele muhimu",
+      "Utendaji wa kutegemewa",
+      "Bei nafuu",
+      "Utendaji rahisi",
+      "Eneo dogo"
+    ],
+    specifications: {
+      "Power Supply": "220V AC",
+      "Motor Power": "0.75kW",
+      "Rim Diameter": "12\"-22\"",
+      "Operation Mode": "Manual",
+      "Warranty": "1 Year"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "5",
+    name: "V600 PRO Advanced Tyre Changer",
+    nameSwahili: "V600 PRO Mashine ya Hali ya Juu ya Kubadilisha Tairi",
+    category: "tyreSystems",
+    price: "KSh 480,000",
+    description: "Professional grade tyre changer with advanced features including automatic functions, assist arms, and premium build quality for demanding applications.",
+    descriptionSwahili: "Mashine ya kiwango cha kitaalamu ya kubadilisha tairi yenye vipengele vya hali ya juu vikiwemo kazi za kiotomatiki, mikono ya msaada, na ubora wa ujenzi wa hali ya juu kwa matumizi makubwa.",
+    features: [
+      "Advanced automation",
+      "Professional assist arms",
+      "Premium build quality",
+      "Multiple operation modes",
+      "Enhanced safety features"
+    ],
+    featuresSwahili: [
+      "Otomatiki ya hali ya juu",
+      "Mikono ya msaada ya kitaalamu",
+      "Ubora wa ujenzi wa hali ya juu",
+      "Aina mbalimbali za utendaji",
+      "Vipengele vya usalama vilivyoongezwa"
+    ],
+    specifications: {
+      "Power Supply": "220V AC",
+      "Motor Power": "1.5kW",
+      "Automation Level": "Advanced",
+      "Assist Arms": "Pneumatic",
+      "Warranty": "3 Years"
+    },
+    images: ["/src/assets/v600-pro-tire-changer.jpg"],
+    inStock: true
+  },
+  {
+    id: "6",
+    name: "CT226 Compact Tyre Changer",
+    nameSwahili: "CT226 Mashine Ndogo ya Kubadilisha Tairi",
+    category: "tyreSystems",
+    price: "KSh 220,000",
+    description: "Compact and portable tyre changer ideal for small workshops and mobile services. Space-saving design without compromising on functionality.",
+    descriptionSwahili: "Mashine ndogo na ya kubebeka ya kubadilisha tairi inayofaa kwa karakana ndogo na huduma za mitembezi. Muundo unaookoa nafasi bila kupunguza utendaji.",
+    features: [
+      "Compact design",
+      "Space-saving",
+      "Portable operation",
+      "Essential functions",
+      "Easy storage"
+    ],
+    featuresSwahili: [
+      "Muundo mdogo",
+      "Unaookoa nafasi",
+      "Utendaji wa kubebeka",
+      "Kazi muhimu",
+      "Uhifadhi rahisi"
+    ],
+    specifications: {
+      "Power Supply": "220V AC",
+      "Motor Power": "0.55kW",
+      "Rim Diameter": "10\"-20\"",
+      "Weight": "120kg",
+      "Footprint": "Compact"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "7",
+    name: "GT525 SE Professional Tyre Changer",
+    nameSwahili: "GT525 SE Mashine ya Kitaalamu ya Kubadilisha Tairi",
+    category: "tyreSystems",
+    price: "KSh 390,000",
+    description: "Professional tyre changer with enhanced features and reliable performance for medium to large workshop operations.",
+    descriptionSwahili: "Mashine ya kitaalamu ya kubadilisha tairi yenye vipengele vilivyoongezwa na utendaji wa kutegemewa kwa kazi za karakana za kati hadi kubwa.",
+    features: [
+      "Enhanced performance",
+      "Professional features",
+      "Reliable operation",
+      "Medium to large capacity",
+      "Quality construction"
+    ],
+    featuresSwahili: [
+      "Utendaji ulioongezwa",
+      "Vipengele vya kitaalamu",
+      "Utendaji wa kutegemewa",
+      "Uwezo wa kati hadi mkubwa",
+      "Ujenzi wa ubora"
+    ],
+    specifications: {
+      "Power Supply": "220V AC",
+      "Motor Power": "1.1kW",
+      "Rim Diameter": "12\"-24\"",
+      "Operation Mode": "Semi-automatic",
+      "Warranty": "2 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "8",
+    name: "GT526 PRO Premium Tyre Changer",
+    nameSwahili: "GT526 PRO Mashine ya Hali ya Juu ya Kubadilisha Tairi",
+    category: "tyreSystems",
+    price: "KSh 550,000",
+    description: "Premium tyre changer with full automation, advanced assist systems, and professional-grade construction for high-end workshop operations.",
+    descriptionSwahili: "Mashine ya hali ya juu ya kubadilisha tairi yenye otomatiki kamili, mifumo ya msaada ya hali ya juu, na ujenzi wa kiwango cha kitaalamu kwa kazi za karakana za hali ya juu.",
+    features: [
+      "Full automation",
+      "Advanced assist systems",
+      "Premium construction",
+      "Professional grade",
+      "Extended warranty"
+    ],
+    featuresSwahili: [
+      "Otomatiki kamili",
+      "Mifumo ya msaada ya hali ya juu",
+      "Ujenzi wa hali ya juu",
+      "Kiwango cha kitaalamu",
+      "Dhamana iliyoongezwa"
+    ],
+    specifications: {
+      "Power Supply": "220V AC",
+      "Motor Power": "1.5kW",
+      "Automation": "Full",
+      "Assist System": "Advanced",
+      "Warranty": "3 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "9",
+    name: "GT526 SE Standard Tyre Changer",
+    nameSwahili: "GT526 SE Mashine ya Kawaida ya Kubadilisha Tairi",
+    category: "tyreSystems",
+    price: "KSh 420,000",
+    description: "Standard edition of the GT526 series offering reliable performance with essential features for professional tyre changing operations.",
+    descriptionSwahili: "Toleo la kawaida la mfumo wa GT526 linalotoa utendaji wa kutegemewa na vipengele muhimu kwa kazi za kitaalamu za kubadilisha tairi.",
+    features: [
+      "Reliable performance",
+      "Essential features",
+      "Professional quality",
+      "Cost-effective",
+      "Standard automation"
+    ],
+    featuresSwahili: [
+      "Utendaji wa kutegemewa",
+      "Vipengele muhimu",
+      "Ubora wa kitaalamu",
+      "Bei nafuu",
+      "Otomatiki ya kawaida"
+    ],
+    specifications: {
+      "Power Supply": "220V AC",
+      "Motor Power": "1.1kW",
+      "Automation": "Standard",
+      "Rim Diameter": "12\"-24\"",
+      "Warranty": "2 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "10",
+    name: "GT526 Basic Tyre Changer",
+    nameSwahili: "GT526 Mashine ya Msingi ya Kubadilisha Tairi",
+    category: "tyreSystems",
+    price: "KSh 380,000",
+    description: "Basic model of the GT526 series providing fundamental tyre changing capabilities with manual operation and reliable performance.",
+    descriptionSwahili: "Mfano wa msingi wa mfumo wa GT526 unaotoa uwezo wa msingi wa kubadilisha tairi kwa utendaji wa mkono na utendaji wa kutegemewa.",
+    features: [
+      "Basic functionality",
+      "Manual operation",
+      "Reliable construction",
+      "Affordable pricing",
+      "Essential features"
+    ],
+    featuresSwahili: [
+      "Utendaji wa msingi",
+      "Utendaji wa mkono",
+      "Ujenzi wa kutegemewa",
+      "Bei nafuu",
+      "Vipengele muhimu"
+    ],
+    specifications: {
+      "Power Supply": "220V AC",
+      "Motor Power": "0.75kW",
+      "Operation Mode": "Manual",
+      "Rim Diameter": "12\"-22\"",
+      "Warranty": "1 Year"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "11",
+    name: "GT325 Professional Tyre Changer",
+    nameSwahili: "GT325 Mashine ya Kitaalamu ya Kubadilisha Tairi",
+    category: "tyreSystems",
+    price: "KSh 340,000",
+    description: "Professional tyre changer with balanced features and performance, suitable for various workshop sizes and applications.",
+    descriptionSwahili: "Mashine ya kitaalamu ya kubadilisha tairi yenye vipengele na utendaji wa usawa, inayofaa kwa ukubwa mbalimbali wa karakana na matumizi.",
+    features: [
+      "Balanced performance",
+      "Professional features",
+      "Versatile application",
+      "Reliable operation",
+      "Quality construction"
+    ],
+    featuresSwahili: [
+      "Utendaji wa usawa",
+      "Vipengele vya kitaalamu",
+      "Matumizi mbalimbali",
+      "Utendaji wa kutegemewa",
+      "Ujenzi wa ubora"
+    ],
+    specifications: {
+      "Power Supply": "220V AC",
+      "Motor Power": "1.1kW",
+      "Rim Diameter": "12\"-24\"",
+      "Operation Mode": "Semi-automatic",
+      "Warranty": "2 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "12",
+    name: "GT325 PRO Advanced Tyre Changer",
+    nameSwahili: "GT325 PRO Mashine ya Hali ya Juu ya Kubadilisha Tairi",
+    category: "tyreSystems",
+    price: "KSh 450,000",
+    description: "Advanced version of GT325 with professional features, enhanced automation, and superior build quality for demanding workshop operations.",
+    descriptionSwahili: "Toleo la hali ya juu la GT325 lenye vipengele vya kitaalamu, otomatiki iliyoongezwa, na ubora wa ujenzi wa hali ya juu kwa kazi ngumu za karakana.",
+    features: [
+      "Advanced automation",
+      "Professional grade",
+      "Enhanced features",
+      "Superior build quality",
+      "Extended warranty"
+    ],
+    featuresSwahili: [
+      "Otomatiki ya hali ya juu",
+      "Kiwango cha kitaalamu",
+      "Vipengele vilivyoongezwa",
+      "Ubora wa ujenzi wa hali ya juu",
+      "Dhamana iliyoongezwa"
+    ],
+    specifications: {
+      "Power Supply": "220V AC",
+      "Motor Power": "1.5kW",
+      "Automation": "Advanced",
+      "Features": "Enhanced",
+      "Warranty": "3 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "13",
+    name: "GT325 L Leverless Tyre Changer",
+    nameSwahili: "GT325 L Mashine ya Kubadilisha Tairi Bila Lever",
+    category: "tyreSystems",
+    price: "KSh 520,000",
+    description: "Leverless tyre changer designed to protect expensive alloy wheels and low-profile tyres with gentle, automated operation.",
+    descriptionSwahili: "Mashine ya kubadilisha tairi bila lever iliyoundwa kulinda magurudumu ya bei ghali ya aloi na tairi za profaili ya chini kwa utendaji wa upole na wa kiotomatiki.",
+    features: [
+      "Leverless operation",
+      "Alloy wheel protection",
+      "Low-profile capability",
+      "Gentle automation",
+      "Premium features"
+    ],
+    featuresSwahili: [
+      "Utendaji bila lever",
+      "Ulinzi wa magurudumu ya aloi",
+      "Uwezo wa profaili ya chini",
+      "Otomatiki ya upole",
+      "Vipengele vya hali ya juu"
+    ],
+    specifications: {
+      "Power Supply": "220V AC",
+      "Motor Power": "1.5kW",
+      "Operation": "Leverless",
+      "Wheel Protection": "Advanced",
+      "Warranty": "3 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "14",
+    name: "GT325 R Run-Flat Tyre Changer",
+    nameSwahili: "GT325 R Mashine ya Kubadilisha Tairi za Run-Flat",
+    category: "tyreSystems",
+    price: "KSh 480,000",
+    description: "Specialized tyre changer designed for run-flat and low-profile tyres with enhanced power and specialized tooling for challenging applications.",
+    descriptionSwahili: "Mashine maalum ya kubadilisha tairi iliyoundwa kwa tairi za run-flat na za profaili ya chini yenye nguvu iliyoongezwa na vifaa maalum kwa matumizi magumu.",
+    features: [
+      "Run-flat capability",
+      "Enhanced power",
+      "Specialized tooling",
+      "Low-profile expertise",
+      "Professional grade"
+    ],
+    featuresSwahili: [
+      "Uwezo wa run-flat",
+      "Nguvu iliyoongezwa",
+      "Vifaa maalum",
+      "Utaalamu wa profaili ya chini",
+      "Kiwango cha kitaalamu"
+    ],
+    specifications: {
+      "Power Supply": "220V AC",
+      "Motor Power": "2.0kW",
+      "Specialization": "Run-flat tyres",
+      "Tooling": "Specialized",
+      "Warranty": "3 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+
+  // WHEEL BALANCERS
+  {
+    id: "15",
     name: "VS20 LED Wheel Balancer",
     nameSwahili: "VS20 Kifaa cha Kusawazisha Magurudumu cha LED",
     category: "balancingMachines",
     price: "KSh 280,000",
-    description: "Advanced wheel balancer featuring LED positioning display, laser assist technology, manual input capability, and both dynamic and static balancing modes for precise wheel balancing operations.",
-    descriptionSwahili: "Kifaa cha hali ya juu cha kusawazisha magurudumu chenye onyesho la nafasi la LED, teknolojia ya msaada wa laser, uwezo wa kuingiza kwa mkono, na aina za kusawazisha za dynamic na static kwa kazi sahihi za kusawazisha magurudumu.",
+    description: "Advanced wheel balancer featuring LED positioning display, laser assist technology, manual input capability, and both dynamic and static balancing modes.",
+    descriptionSwahili: "Kifaa cha hali ya juu cha kusawazisha magurudumu chenye onyesho la nafasi la LED, teknolojia ya msaada wa laser, uwezo wa kuingiza kwa mkono, na aina za kusawazisha za dynamic na static.",
     features: [
       "LED positioning display",
       "Laser assist technology",
@@ -98,41 +485,329 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: "4",
-    name: "VS/CB Series Advanced Wheel Balancer",
-    nameSwahili: "VS/CB Mfumo wa Hali ya Juu wa Kusawazisha Magurudumu",
+    id: "16",
+    name: "VS50 Advanced Wheel Balancer",
+    nameSwahili: "VS50 Kifaa cha Hali ya Juu cha Kusawazisha Magurudumu",
     category: "balancingMachines",
-    price: "KSh 520,000",
-    description: "Premium wheel balancer series with advanced automation, touchscreen interface, automatic data entry, multiple spindle adapters, integrated printer, and comprehensive diagnostics for professional workshops.",
-    descriptionSwahili: "Mfumo wa hali ya juu wa kusawazisha magurudumu wenye otomatiki ya hali ya juu, kiolesura cha kugusa, kuingiza data kwa otomatiki, viunganishi vingi vya spindle, printa iliyojumuishwa, na uchunguzi wa kina kwa karakana za kitaalamu.",
+    price: "KSh 350,000",
+    description: "Advanced wheel balancer with enhanced features, automatic data entry, and improved precision for professional workshop applications.",
+    descriptionSwahili: "Kifaa cha hali ya juu cha kusawazisha magurudumu chenye vipengele vilivyoongezwa, kuingiza data kwa kiotomatiki, na usahihi ulioboreshwa kwa matumizi ya karakana za kitaalamu.",
     features: [
-      "Advanced automation system",
-      "Touchscreen interface",
+      "Enhanced precision",
       "Automatic data entry",
-      "Multiple spindle adapters",
-      "Integrated printer options",
-      "Comprehensive diagnostics"
+      "Advanced features",
+      "Professional grade",
+      "Improved performance"
     ],
     featuresSwahili: [
-      "Mfumo wa otomatiki wa hali ya juu",
-      "Kiolesura cha kugusa",
-      "Kuingiza data kwa otomatiki",
-      "Viunganishi vingi vya spindle",
-      "Chaguo za printa zilizojumuishwa",
-      "Uchunguzi wa kina"
+      "Usahihi ulioongezwa",
+      "Kuingiza data kwa kiotomatiki",
+      "Vipengele vya hali ya juu",
+      "Kiwango cha kitaalamu",
+      "Utendaji ulioboreshwa"
     ],
     specifications: {
-      "Interface": "Touchscreen",
+      "Display": "Digital LCD",
       "Data Entry": "Automatic",
-      "Adapters": "Multiple spindle types",
-      "Printer": "Integrated options",
-      "Diagnostics": "Comprehensive"
+      "Precision": "±1g",
+      "Max Wheel Weight": "70kg",
+      "Warranty": "2 Years"
     },
-    images: ["/src/assets/vs-cb-wheel-balancer.jpg"],
+    images: ["/src/assets/vs50-wheel-balancer.jpg"],
     inStock: true
   },
   {
-    id: "5",
+    id: "17",
+    name: "V60 Standard Wheel Balancer",
+    nameSwahili: "V60 Kifaa cha Kawaida cha Kusawazisha Magurudumu",
+    category: "balancingMachines",
+    price: "KSh 320,000",
+    description: "Standard wheel balancer offering reliable performance and essential balancing features for medium-sized workshop operations.",
+    descriptionSwahili: "Kifaa cha kawaida cha kusawazisha magurudumu kinachotoa utendaji wa kutegemewa na vipengele muhimu vya kusawazisha kwa kazi za karakana za ukubwa wa kati.",
+    features: [
+      "Reliable performance",
+      "Essential features",
+      "Standard precision",
+      "Cost-effective",
+      "User-friendly"
+    ],
+    featuresSwahili: [
+      "Utendaji wa kutegemewa",
+      "Vipengele muhimu",
+      "Usahihi wa kawaida",
+      "Bei nafuu",
+      "Rahisi kutumia"
+    ],
+    specifications: {
+      "Display": "LED",
+      "Max Rim Diameter": "24\"",
+      "Balancing Speed": "200 RPM",
+      "Accuracy": "±5g",
+      "Warranty": "1 Year"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "18",
+    name: "VS60 Professional Wheel Balancer",
+    nameSwahili: "VS60 Kifaa cha Kitaalamu cha Kusawazisha Magurudumu",
+    category: "balancingMachines",
+    price: "KSh 380,000",
+    description: "Professional wheel balancer with advanced diagnostic capabilities, multiple balancing programs, and enhanced precision for demanding applications.",
+    descriptionSwahili: "Kifaa cha kitaalamu cha kusawazisha magurudumu chenye uwezo wa uchunguzi wa hali ya juu, programu nyingi za kusawazisha, na usahihi ulioongezwa kwa matumizi makubwa.",
+    features: [
+      "Advanced diagnostics",
+      "Multiple programs",
+      "Enhanced precision",
+      "Professional features",
+      "Comprehensive display"
+    ],
+    featuresSwahili: [
+      "Uchunguzi wa hali ya juu",
+      "Programu nyingi",
+      "Usahihi ulioongezwa",
+      "Vipengele vya kitaalamu",
+      "Onyesho la kina"
+    ],
+    specifications: {
+      "Display": "Color LCD",
+      "Programs": "Multiple",
+      "Diagnostics": "Advanced",
+      "Precision": "±1g",
+      "Warranty": "2 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "19",
+    name: "VS70 Premium Wheel Balancer",
+    nameSwahili: "VS70 Kifaa cha Hali ya Juu cha Kusawazisha Magurudumu",
+    category: "balancingMachines",
+    price: "KSh 450,000",
+    description: "Premium wheel balancer with touchscreen interface, automatic measurement, advanced diagnostics, and comprehensive balancing programs.",
+    descriptionSwahili: "Kifaa cha hali ya juu cha kusawazisha magurudumu chenye kiolesura cha kugusa, upimaji wa kiotomatiki, uchunguzi wa hali ya juu, na programu za kina za kusawazisha.",
+    features: [
+      "Touchscreen interface",
+      "Automatic measurement",
+      "Advanced diagnostics",
+      "Comprehensive programs",
+      "Premium features"
+    ],
+    featuresSwahili: [
+      "Kiolesura cha kugusa",
+      "Upimaji wa kiotomatiki",
+      "Uchunguzi wa hali ya juu",
+      "Programu za kina",
+      "Vipengele vya hali ya juu"
+    ],
+    specifications: {
+      "Interface": "Touchscreen",
+      "Measurement": "Automatic",
+      "Programs": "Comprehensive",
+      "Precision": "±0.5g",
+      "Warranty": "3 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "20",
+    name: "VS80 High-End Wheel Balancer",
+    nameSwahili: "VS80 Kifaa cha Hali ya Juu Sana cha Kusawazisha Magurudumu",
+    category: "balancingMachines",
+    price: "KSh 580,000",
+    description: "High-end wheel balancer with cutting-edge technology, full automation, integrated printer, and comprehensive diagnostic capabilities for professional workshops.",
+    descriptionSwahili: "Kifaa cha hali ya juu sana cha kusawazisha magurudumu chenye teknolojia ya kisasa, otomatiki kamili, printa iliyojumuishwa, na uwezo wa kina wa uchunguzi kwa karakana za kitaalamu.",
+    features: [
+      "Cutting-edge technology",
+      "Full automation",
+      "Integrated printer",
+      "Comprehensive diagnostics",
+      "Professional grade"
+    ],
+    featuresSwahili: [
+      "Teknolojia ya kisasa",
+      "Otomatiki kamili",
+      "Printa iliyojumuishwa",
+      "Uchunguzi wa kina",
+      "Kiwango cha kitaalamu"
+    ],
+    specifications: {
+      "Technology": "Latest",
+      "Automation": "Full",
+      "Printer": "Integrated",
+      "Precision": "±0.1g",
+      "Warranty": "3 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "21",
+    name: "CB650 Heavy-Duty Wheel Balancer",
+    nameSwahili: "CB650 Kifaa cha Uzito Mkuu cha Kusawazisha Magurudumu",
+    category: "balancingMachines",
+    price: "KSh 680,000",
+    description: "Heavy-duty wheel balancer designed for commercial applications with enhanced capacity, touchscreen control, and advanced features for truck and heavy vehicle wheels.",
+    descriptionSwahili: "Kifaa cha uzito mkuu cha kusawazisha magurudumu kilichoundwa kwa matumizi ya kibiashara chenye uwezo ulioongezwa, udhibiti wa kugusa, na vipengele vya hali ya juu kwa magurudumu ya malori na magari mazito.",
+    features: [
+      "Heavy-duty capacity",
+      "Touchscreen control",
+      "Commercial grade",
+      "Truck wheel capability",
+      "Advanced features"
+    ],
+    featuresSwahili: [
+      "Uwezo wa uzito mkuu",
+      "Udhibiti wa kugusa",
+      "Kiwango cha kibiashara",
+      "Uwezo wa magurudumu ya malori",
+      "Vipengele vya hali ya juu"
+    ],
+    specifications: {
+      "Max Wheel Weight": "200kg",
+      "Interface": "Touchscreen",
+      "Application": "Commercial/Truck",
+      "Precision": "±1g",
+      "Warranty": "3 Years"
+    },
+    images: ["/src/assets/cb650-wheel-balancer.jpg"],
+    inStock: true
+  },
+  {
+    id: "22",
+    name: "CB150 Basic Wheel Balancer",
+    nameSwahili: "CB150 Kifaa cha Msingi cha Kusawazisha Magurudumu",
+    category: "balancingMachines",
+    price: "KSh 180,000",
+    description: "Basic wheel balancer offering essential balancing functions at an affordable price point, ideal for small workshops and startup operations.",
+    descriptionSwahili: "Kifaa cha msingi cha kusawazisha magurudumu kinachotoa kazi muhimu za kusawazisha kwa bei nafuu, kinachofaa kwa karakana ndogo na kazi za kuanza.",
+    features: [
+      "Basic functionality",
+      "Affordable pricing",
+      "Essential features",
+      "Compact design",
+      "Easy operation"
+    ],
+    featuresSwahili: [
+      "Utendaji wa msingi",
+      "Bei nafuu",
+      "Vipengele muhimu",
+      "Muundo mdogo",
+      "Utendaji rahisi"
+    ],
+    specifications: {
+      "Max Wheel Weight": "60kg",
+      "Display": "LED",
+      "Operation": "Manual input",
+      "Accuracy": "±10g",
+      "Warranty": "1 Year"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "23",
+    name: "CB450 Professional Wheel Balancer",
+    nameSwahili: "CB450 Kifaa cha Kitaalamu cha Kusawazisha Magurudumu",
+    category: "balancingMachines",
+    price: "KSh 420,000",
+    description: "Professional wheel balancer with advanced features, automatic data entry, multiple balancing modes, and reliable performance for professional workshops.",
+    descriptionSwahili: "Kifaa cha kitaalamu cha kusawazisha magurudumu chenye vipengele vya hali ya juu, kuingiza data kwa kiotomatiki, aina nyingi za kusawazisha, na utendaji wa kutegemewa kwa karakana za kitaalamu.",
+    features: [
+      "Professional features",
+      "Automatic data entry",
+      "Multiple modes",
+      "Reliable performance",
+      "Quality construction"
+    ],
+    featuresSwahili: [
+      "Vipengele vya kitaalamu",
+      "Kuingiza data kwa kiotomatiki",
+      "Aina nyingi",
+      "Utendaji wa kutegemewa",
+      "Ujenzi wa ubora"
+    ],
+    specifications: {
+      "Max Wheel Weight": "80kg",
+      "Data Entry": "Automatic",
+      "Modes": "Multiple",
+      "Precision": "±2g",
+      "Warranty": "2 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "24",
+    name: "CB550 Advanced Wheel Balancer",
+    nameSwahili: "CB550 Kifaa cha Hali ya Juu cha Kusawazisha Magurudumu",
+    category: "balancingMachines",
+    price: "KSh 520,000",
+    description: "Advanced wheel balancer with comprehensive features, diagnostic capabilities, printer integration, and enhanced precision for demanding professional applications.",
+    descriptionSwahili: "Kifaa cha hali ya juu cha kusawazisha magurudumu chenye vipengele vya kina, uwezo wa uchunguzi, ujumuishaji wa printa, na usahihi ulioongezwa kwa matumizi makubwa ya kitaalamu.",
+    features: [
+      "Comprehensive features",
+      "Diagnostic capabilities",
+      "Printer integration",
+      "Enhanced precision",
+      "Professional grade"
+    ],
+    featuresSwahili: [
+      "Vipengele vya kina",
+      "Uwezo wa uchunguzi",
+      "Ujumuishaji wa printa",
+      "Usahihi ulioongezwa",
+      "Kiwango cha kitaalamu"
+    ],
+    specifications: {
+      "Features": "Comprehensive",
+      "Diagnostics": "Advanced",
+      "Printer": "Integrated",
+      "Precision": "±1g",
+      "Warranty": "3 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+  {
+    id: "25",
+    name: "CB250 Standard Wheel Balancer",
+    nameSwahili: "CB250 Kifaa cha Kawaida cha Kusawazisha Magurudumu",
+    category: "balancingMachines",
+    price: "KSh 250,000",
+    description: "Standard wheel balancer offering reliable performance with essential features and good precision for medium-sized workshop operations.",
+    descriptionSwahili: "Kifaa cha kawaida cha kusawazisha magurudumu kinachotoa utendaji wa kutegemewa na vipengele muhimu na usahihi mzuri kwa kazi za karakana za ukubwa wa kati.",
+    features: [
+      "Reliable performance",
+      "Essential features",
+      "Good precision",
+      "Standard operation",
+      "Cost-effective"
+    ],
+    featuresSwahili: [
+      "Utendaji wa kutegemewa",
+      "Vipengele muhimu", 
+      "Usahihi mzuri",
+      "Utendaji wa kawaida",
+      "Bei nafuu"
+    ],
+    specifications: {
+      "Max Wheel Weight": "70kg",
+      "Display": "Digital",
+      "Operation": "Standard",
+      "Precision": "±5g",
+      "Warranty": "2 Years"
+    },
+    images: ["/api/placeholder/600/400"],
+    inStock: true
+  },
+
+  // EXISTING PRODUCTS (keeping original diagnostic tools, alignment, and lift)
+  {
+    id: "26",
     name: "Professional OBD2 Scanner",
     nameSwahili: "Kifaa cha Uchunguzi OBD2",
     category: "diagnosticTools",
@@ -163,7 +838,7 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: "6", 
+    id: "27", 
     name: "3D Wheel Alignment System",
     nameSwahili: "Mfumo wa Uratibu wa Magurudumu 3D",
     category: "wheelAlignment",
@@ -194,7 +869,7 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: "7",
+    id: "28",
     name: "Two Post Car Lift",
     nameSwahili: "Lifti ya Gari ya Nguzo Mbili",
     category: "garageLift", 
@@ -225,7 +900,7 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: "8",
+    id: "29",
     name: "Digital Multimeter Pro",
     nameSwahili: "Kipimo cha Kidijitali cha Kitaalamu",
     category: "diagnosticTools",
