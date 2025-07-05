@@ -7,7 +7,6 @@ export const products: Product[] = [
     name: "V9120 Fully Automatic Tyre Changer",
     nameSwahili: "V9120 Mashine ya Kubadilisha Tairi ya Kiotomatiki",
     category: "tyreSystems",
-    price: "KSh 380,000",
     description: "Professional fully automatic tyre changer designed for high efficiency operations. Handles cars, SUVs, and motorcycles with advanced pneumatic assistance and user-friendly controls.",
     descriptionSwahili: "Mashine ya kitaalamu ya kubadilisha tairi ya kiotomatiki iliyoundwa kwa kazi za ufanisi wa juu. Inashughulikia magari, SUV, na pikipiki kwa msaada wa hewa na vidhibiti rahisi.",
     features: [
@@ -31,7 +30,7 @@ export const products: Product[] = [
       "Operation Mode": "Fully Automatic",
       "Warranty": "2 Years"
     },
-    images: ["/src/assets/v9120-tire-changer.jpg"],
+    images: ["/api/placeholder/600/400"],
     inStock: true
   },
   {
@@ -39,7 +38,6 @@ export const products: Product[] = [
     name: "V7120 Professional Tyre Changer",
     nameSwahili: "V7120 Mashine ya Kubadilisha Tairi ya Kitaalamu",
     category: "tyreSystems",
-    price: "KSh 350,000",
     description: "Robust professional tyre changer with reliable performance and durable construction for high-volume workshop operations.",
     descriptionSwahili: "Mashine madhubuti ya kitaalamu ya kubadilisha tairi yenye utendaji wa kutegemewa na ujenzi wa kudumu kwa kazi za karakana za wingi.",
     features: [
@@ -63,7 +61,7 @@ export const products: Product[] = [
       "Construction": "Heavy-duty steel",
       "Warranty": "2 Years"
     },
-    images: ["/src/assets/v7120-tire-changer.jpg"],
+    images: ["/api/placeholder/600/400"],
     inStock: true
   },
   {
@@ -71,7 +69,6 @@ export const products: Product[] = [
     name: "V9220 Heavy-Duty Tyre Changer",
     nameSwahili: "V9220 Mashine ya Kubadilisha Tairi ya Uzito Mkuu",
     category: "tyreSystems",
-    price: "KSh 420,000",
     description: "Heavy-duty tyre changer designed for commercial applications with enhanced power and durability for truck and heavy vehicle tyres.",
     descriptionSwahili: "Mashine ya uzito mkuu ya kubadilisha tairi iliyoundwa kwa matumizi ya kibiashara yenye nguvu iliyoongezwa na kudumu kwa tairi za malori na magari mazito.",
     features: [
@@ -103,7 +100,6 @@ export const products: Product[] = [
     name: "V500 SE Tyre Changer",
     nameSwahili: "V500 SE Mashine ya Kubadilisha Tairi",
     category: "tyreSystems",
-    price: "KSh 280,000",
     description: "Standard edition tyre changer offering reliable performance and essential features for small to medium workshops at an affordable price.",
     descriptionSwahili: "Mashine ya kawaida ya kubadilisha tairi inayotoa utendaji wa kutegemewa na vipengele muhimu kwa karakana ndogo hadi za kati kwa bei nafuu.",
     features: [
@@ -135,7 +131,6 @@ export const products: Product[] = [
     name: "V600 PRO Advanced Tyre Changer",
     nameSwahili: "V600 PRO Mashine ya Hali ya Juu ya Kubadilisha Tairi",
     category: "tyreSystems",
-    price: "KSh 480,000",
     description: "Professional grade tyre changer with advanced features including automatic functions, assist arms, and premium build quality for demanding applications.",
     descriptionSwahili: "Mashine ya kiwango cha kitaalamu ya kubadilisha tairi yenye vipengele vya hali ya juu vikiwemo kazi za kiotomatiki, mikono ya msaada, na ubora wa ujenzi wa hali ya juu kwa matumizi makubwa.",
     features: [
@@ -167,7 +162,6 @@ export const products: Product[] = [
     name: "CT226 Compact Tyre Changer",
     nameSwahili: "CT226 Mashine Ndogo ya Kubadilisha Tairi",
     category: "tyreSystems",
-    price: "KSh 220,000",
     description: "Compact and portable tyre changer ideal for small workshops and mobile services. Space-saving design without compromising on functionality.",
     descriptionSwahili: "Mashine ndogo na ya kubebeka ya kubadilisha tairi inayofaa kwa karakana ndogo na huduma za mitembezi. Muundo unaookoa nafasi bila kupunguza utendaji.",
     features: [
@@ -199,7 +193,6 @@ export const products: Product[] = [
     name: "GT525 SE Professional Tyre Changer",
     nameSwahili: "GT525 SE Mashine ya Kitaalamu ya Kubadilisha Tairi",
     category: "tyreSystems",
-    price: "KSh 390,000",
     description: "Professional tyre changer with enhanced features and reliable performance for medium to large workshop operations.",
     descriptionSwahili: "Mashine ya kitaalamu ya kubadilisha tairi yenye vipengele vilivyoongezwa na utendaji wa kutegemewa kwa kazi za karakana za kati hadi kubwa.",
     features: [
@@ -231,7 +224,6 @@ export const products: Product[] = [
     name: "GT526 PRO Premium Tyre Changer",
     nameSwahili: "GT526 PRO Mashine ya Hali ya Juu ya Kubadilisha Tairi",
     category: "tyreSystems",
-    price: "KSh 550,000",
     description: "Premium tyre changer with full automation, advanced assist systems, and professional-grade construction for high-end workshop operations.",
     descriptionSwahili: "Mashine ya hali ya juu ya kubadilisha tairi yenye otomatiki kamili, mifumo ya msaada ya hali ya juu, na ujenzi wa kiwango cha kitaalamu kwa kazi za karakana za hali ya juu.",
     features: [
@@ -263,7 +255,6 @@ export const products: Product[] = [
     name: "GT526 SE Standard Tyre Changer",
     nameSwahili: "GT526 SE Mashine ya Kawaida ya Kubadilisha Tairi",
     category: "tyreSystems",
-    price: "KSh 420,000",
     description: "Standard edition of the GT526 series offering reliable performance with essential features for professional tyre changing operations.",
     descriptionSwahili: "Toleo la kawaida la mfumo wa GT526 linalotoa utendaji wa kutegemewa na vipengele muhimu kwa kazi za kitaalamu za kubadilisha tairi.",
     features: [
@@ -295,7 +286,6 @@ export const products: Product[] = [
     name: "GT526 Basic Tyre Changer",
     nameSwahili: "GT526 Mashine ya Msingi ya Kubadilisha Tairi",
     category: "tyreSystems",
-    price: "KSh 380,000",
     description: "Basic model of the GT526 series providing fundamental tyre changing capabilities with manual operation and reliable performance.",
     descriptionSwahili: "Mfano wa msingi wa mfumo wa GT526 unaotoa uwezo wa msingi wa kubadilisha tairi kwa utendaji wa mkono na utendaji wa kutegemewa.",
     features: [
@@ -327,7 +317,6 @@ export const products: Product[] = [
     name: "GT325 Professional Tyre Changer",
     nameSwahili: "GT325 Mashine ya Kitaalamu ya Kubadilisha Tairi",
     category: "tyreSystems",
-    price: "KSh 340,000",
     description: "Professional tyre changer with balanced features and performance, suitable for various workshop sizes and applications.",
     descriptionSwahili: "Mashine ya kitaalamu ya kubadilisha tairi yenye vipengele na utendaji wa usawa, inayofaa kwa ukubwa mbalimbali wa karakana na matumizi.",
     features: [
@@ -359,7 +348,6 @@ export const products: Product[] = [
     name: "GT325 PRO Advanced Tyre Changer",
     nameSwahili: "GT325 PRO Mashine ya Hali ya Juu ya Kubadilisha Tairi",
     category: "tyreSystems",
-    price: "KSh 450,000",
     description: "Advanced version of GT325 with professional features, enhanced automation, and superior build quality for demanding workshop operations.",
     descriptionSwahili: "Toleo la hali ya juu la GT325 lenye vipengele vya kitaalamu, otomatiki iliyoongezwa, na ubora wa ujenzi wa hali ya juu kwa kazi ngumu za karakana.",
     features: [
@@ -391,7 +379,6 @@ export const products: Product[] = [
     name: "GT325 L Leverless Tyre Changer",
     nameSwahili: "GT325 L Mashine ya Kubadilisha Tairi Bila Lever",
     category: "tyreSystems",
-    price: "KSh 520,000",
     description: "Leverless tyre changer designed to protect expensive alloy wheels and low-profile tyres with gentle, automated operation.",
     descriptionSwahili: "Mashine ya kubadilisha tairi bila lever iliyoundwa kulinda magurudumu ya bei ghali ya aloi na tairi za profaili ya chini kwa utendaji wa upole na wa kiotomatiki.",
     features: [
@@ -423,7 +410,6 @@ export const products: Product[] = [
     name: "GT325 R Run-Flat Tyre Changer",
     nameSwahili: "GT325 R Mashine ya Kubadilisha Tairi za Run-Flat",
     category: "tyreSystems",
-    price: "KSh 480,000",
     description: "Specialized tyre changer designed for run-flat and low-profile tyres with enhanced power and specialized tooling for challenging applications.",
     descriptionSwahili: "Mashine maalum ya kubadilisha tairi iliyoundwa kwa tairi za run-flat na za profaili ya chini yenye nguvu iliyoongezwa na vifaa maalum kwa matumizi magumu.",
     features: [
@@ -457,7 +443,6 @@ export const products: Product[] = [
     name: "VS20 LED Wheel Balancer",
     nameSwahili: "VS20 Kifaa cha Kusawazisha Magurudumu cha LED",
     category: "balancingMachines",
-    price: "KSh 280,000",
     description: "Advanced wheel balancer featuring LED positioning display, laser assist technology, manual input capability, and both dynamic and static balancing modes.",
     descriptionSwahili: "Kifaa cha hali ya juu cha kusawazisha magurudumu chenye onyesho la nafasi la LED, teknolojia ya msaada wa laser, uwezo wa kuingiza kwa mkono, na aina za kusawazisha za dynamic na static.",
     features: [
@@ -489,7 +474,6 @@ export const products: Product[] = [
     name: "VS50 Advanced Wheel Balancer",
     nameSwahili: "VS50 Kifaa cha Hali ya Juu cha Kusawazisha Magurudumu",
     category: "balancingMachines",
-    price: "KSh 350,000",
     description: "Advanced wheel balancer with enhanced features, automatic data entry, and improved precision for professional workshop applications.",
     descriptionSwahili: "Kifaa cha hali ya juu cha kusawazisha magurudumu chenye vipengele vilivyoongezwa, kuingiza data kwa kiotomatiki, na usahihi ulioboreshwa kwa matumizi ya karakana za kitaalamu.",
     features: [
@@ -521,7 +505,6 @@ export const products: Product[] = [
     name: "V60 Standard Wheel Balancer",
     nameSwahili: "V60 Kifaa cha Kawaida cha Kusawazisha Magurudumu",
     category: "balancingMachines",
-    price: "KSh 320,000",
     description: "Standard wheel balancer offering reliable performance and essential balancing features for medium-sized workshop operations.",
     descriptionSwahili: "Kifaa cha kawaida cha kusawazisha magurudumu kinachotoa utendaji wa kutegemewa na vipengele muhimu vya kusawazisha kwa kazi za karakana za ukubwa wa kati.",
     features: [
@@ -553,7 +536,6 @@ export const products: Product[] = [
     name: "VS60 Professional Wheel Balancer",
     nameSwahili: "VS60 Kifaa cha Kitaalamu cha Kusawazisha Magurudumu",
     category: "balancingMachines",
-    price: "KSh 380,000",
     description: "Professional wheel balancer with advanced diagnostic capabilities, multiple balancing programs, and enhanced precision for demanding applications.",
     descriptionSwahili: "Kifaa cha kitaalamu cha kusawazisha magurudumu chenye uwezo wa uchunguzi wa hali ya juu, programu nyingi za kusawazisha, na usahihi ulioongezwa kwa matumizi makubwa.",
     features: [
@@ -585,7 +567,6 @@ export const products: Product[] = [
     name: "VS70 Premium Wheel Balancer",
     nameSwahili: "VS70 Kifaa cha Hali ya Juu cha Kusawazisha Magurudumu",
     category: "balancingMachines",
-    price: "KSh 450,000",
     description: "Premium wheel balancer with touchscreen interface, automatic measurement, advanced diagnostics, and comprehensive balancing programs.",
     descriptionSwahili: "Kifaa cha hali ya juu cha kusawazisha magurudumu chenye kiolesura cha kugusa, upimaji wa kiotomatiki, uchunguzi wa hali ya juu, na programu za kina za kusawazisha.",
     features: [
@@ -617,7 +598,6 @@ export const products: Product[] = [
     name: "VS80 High-End Wheel Balancer",
     nameSwahili: "VS80 Kifaa cha Hali ya Juu Sana cha Kusawazisha Magurudumu",
     category: "balancingMachines",
-    price: "KSh 580,000",
     description: "High-end wheel balancer with cutting-edge technology, full automation, integrated printer, and comprehensive diagnostic capabilities for professional workshops.",
     descriptionSwahili: "Kifaa cha hali ya juu sana cha kusawazisha magurudumu chenye teknolojia ya kisasa, otomatiki kamili, printa iliyojumuishwa, na uwezo wa kina wa uchunguzi kwa karakana za kitaalamu.",
     features: [
@@ -649,7 +629,6 @@ export const products: Product[] = [
     name: "CB650 Heavy-Duty Wheel Balancer",
     nameSwahili: "CB650 Kifaa cha Uzito Mkuu cha Kusawazisha Magurudumu",
     category: "balancingMachines",
-    price: "KSh 680,000",
     description: "Heavy-duty wheel balancer designed for commercial applications with enhanced capacity, touchscreen control, and advanced features for truck and heavy vehicle wheels.",
     descriptionSwahili: "Kifaa cha uzito mkuu cha kusawazisha magurudumu kilichoundwa kwa matumizi ya kibiashara chenye uwezo ulioongezwa, udhibiti wa kugusa, na vipengele vya hali ya juu kwa magurudumu ya malori na magari mazito.",
     features: [
@@ -681,7 +660,6 @@ export const products: Product[] = [
     name: "CB150 Basic Wheel Balancer",
     nameSwahili: "CB150 Kifaa cha Msingi cha Kusawazisha Magurudumu",
     category: "balancingMachines",
-    price: "KSh 180,000",
     description: "Basic wheel balancer offering essential balancing functions at an affordable price point, ideal for small workshops and startup operations.",
     descriptionSwahili: "Kifaa cha msingi cha kusawazisha magurudumu kinachotoa kazi muhimu za kusawazisha kwa bei nafuu, kinachofaa kwa karakana ndogo na kazi za kuanza.",
     features: [
@@ -713,7 +691,6 @@ export const products: Product[] = [
     name: "CB450 Professional Wheel Balancer",
     nameSwahili: "CB450 Kifaa cha Kitaalamu cha Kusawazisha Magurudumu",
     category: "balancingMachines",
-    price: "KSh 420,000",
     description: "Professional wheel balancer with advanced features, automatic data entry, multiple balancing modes, and reliable performance for professional workshops.",
     descriptionSwahili: "Kifaa cha kitaalamu cha kusawazisha magurudumu chenye vipengele vya hali ya juu, kuingiza data kwa kiotomatiki, aina nyingi za kusawazisha, na utendaji wa kutegemewa kwa karakana za kitaalamu.",
     features: [
@@ -745,7 +722,6 @@ export const products: Product[] = [
     name: "CB550 Advanced Wheel Balancer",
     nameSwahili: "CB550 Kifaa cha Hali ya Juu cha Kusawazisha Magurudumu",
     category: "balancingMachines",
-    price: "KSh 520,000",
     description: "Advanced wheel balancer with comprehensive features, diagnostic capabilities, printer integration, and enhanced precision for demanding professional applications.",
     descriptionSwahili: "Kifaa cha hali ya juu cha kusawazisha magurudumu chenye vipengele vya kina, uwezo wa uchunguzi, ujumuishaji wa printa, na usahihi ulioongezwa kwa matumizi makubwa ya kitaalamu.",
     features: [
@@ -777,7 +753,6 @@ export const products: Product[] = [
     name: "CB250 Standard Wheel Balancer",
     nameSwahili: "CB250 Kifaa cha Kawaida cha Kusawazisha Magurudumu",
     category: "balancingMachines",
-    price: "KSh 250,000",
     description: "Standard wheel balancer offering reliable performance with essential features and good precision for medium-sized workshop operations.",
     descriptionSwahili: "Kifaa cha kawaida cha kusawazisha magurudumu kinachotoa utendaji wa kutegemewa na vipengele muhimu na usahihi mzuri kwa kazi za karakana za ukubwa wa kati.",
     features: [
@@ -811,7 +786,6 @@ export const products: Product[] = [
     name: "Professional OBD2 Scanner",
     nameSwahili: "Kifaa cha Uchunguzi OBD2",
     category: "diagnosticTools",
-    price: "KSh 45,000",
     description: "Advanced automotive diagnostic scanner with full system coverage and live data streaming capabilities.",
     descriptionSwahili: "Kifaa cha hali ya juu cha uchunguzi wa magari chenye uwezo wa kufunika mifumo yote na kuonyesha data ya moja kwa moja.",
     features: [
@@ -842,7 +816,6 @@ export const products: Product[] = [
     name: "3D Wheel Alignment System",
     nameSwahili: "Mfumo wa Uratibu wa Magurudumu 3D",
     category: "wheelAlignment",
-    price: "KSh 850,000",
     description: "State-of-the-art 3D wheel alignment system with camera-based measurement technology for precise vehicle alignment.",
     descriptionSwahili: "Mfumo wa kisasa wa uratibu wa magurudumu wa 3D unaotumia teknolojia ya kamera kwa upimaji sahihi wa uratibu wa gari.",
     features: [
@@ -873,7 +846,6 @@ export const products: Product[] = [
     name: "Two Post Car Lift",
     nameSwahili: "Lifti ya Gari ya Nguzo Mbili",
     category: "garageLift", 
-    price: "KSh 450,000",
     description: "Heavy-duty two-post car lift with symmetric design for reliable vehicle lifting and maintenance operations.",
     descriptionSwahili: "Lifti ya gari ya uzito mkuu ya nguzo mbili yenye muundo sawa kwa ajili ya kuinua gari kwa kutegemewa na kazi za matengenezo.",
     features: [
@@ -904,7 +876,6 @@ export const products: Product[] = [
     name: "Digital Multimeter Pro",
     nameSwahili: "Kipimo cha Kidijitali cha Kitaalamu",
     category: "diagnosticTools",
-    price: "KSh 12,500",
     description: "Professional automotive multimeter with advanced testing capabilities for electrical diagnostics.",
     descriptionSwahili: "Kipimo cha umeme cha kitaalamu cha magari chenye uwezo wa juu wa kupima kwa ajili ya uchunguzi wa umeme.",
     features: [

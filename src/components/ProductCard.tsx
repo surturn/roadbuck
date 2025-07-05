@@ -43,11 +43,6 @@ export const ProductCard = ({ product, onQuoteRequest }: ProductCardProps) => {
           {displayDescription}
         </p>
         
-        {product.price && (
-          <div className="text-xl font-bold text-primary mb-3">
-            {product.price}
-          </div>
-        )}
         
         <div className="space-y-2">
           <div className="text-xs text-muted-foreground font-medium">
