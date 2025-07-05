@@ -7,28 +7,28 @@ export const products: Product[] = [
     name: "V9120 Fully Automatic Tyre Changer",
     nameSwahili: "V9120 Mashine ya Kubadilisha Tairi ya Kiotomatiki",
     category: "tyreSystems",
-    description: "Professional fully automatic tyre changer designed for high efficiency operations. Handles cars, SUVs, and motorcycles with advanced pneumatic assistance and user-friendly controls.",
-    descriptionSwahili: "Mashine ya kitaalamu ya kubadilisha tairi ya kiotomatiki iliyoundwa kwa kazi za ufanisi wa juu. Inashughulikia magari, SUV, na pikipiki kwa msaada wa hewa na vidhibiti rahisi.",
+    description: "Fully‑automatic tilt‑tower tyre changer with pneumatic bead breaker; supports 12″–26″ rims; ideal for high‑volume service.",
+    descriptionSwahili: "Mashine ya kiotomatiki kamili ya kubadilisha tairi yenye kifaa cha pneumatic cha kuvunja mzingo; inasaidia rim za 12″–26″; bora kwa huduma ya kiasi kikubwa.",
     features: [
-      "Fully automatic operation",
-      "Car/SUV/Motorcycle compatibility",
-      "Advanced pneumatic assistance",
-      "High efficiency performance",
-      "User-friendly interface"
+      "Fully automatic tilt-tower operation",
+      "Pneumatic bead breaker",
+      "12″–26″ rim compatibility",
+      "High-volume service capability",
+      "Professional grade construction"
     ],
     featuresSwahili: [
-      "Utendaji wa kiotomatiki kabisa",
-      "Inapatana na magari/SUV/pikipiki",
-      "Msaada wa hewa wa kisasa",
-      "Utendaji wa ufanisi wa juu",
-      "Kiolesura cha kutumia kwa urahisi"
+      "Utendaji wa kiotomatiki wa tilt-tower",
+      "Kifaa cha pneumatic cha kuvunja mzingo",
+      "Inapatana na rim za 12″–26″",
+      "Uwezo wa huduma ya kiasi kikubwa",
+      "Ujenzi wa kiwango cha kitaalamu"
     ],
     specifications: {
-      "Power Supply": "220V AC",
-      "Motor Power": "1.1kW",
-      "Vehicle Types": "Car/SUV/Motorcycle",
-      "Operation Mode": "Fully Automatic",
-      "Warranty": "2 Years"
+      "Rim Range": "12″–26″",
+      "Motor Power": "1.1 kW @220V / 0.75 kW @380V",
+      "Weight": "425 kg",
+      "Air Pressure": "≤10 bar",
+      "Operation": "Fully Automatic"
     },
     images: ["/api/placeholder/600/400"],
     inStock: true
