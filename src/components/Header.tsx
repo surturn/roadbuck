@@ -20,19 +20,19 @@ export const Header = () => {
           </div>
           
           <nav className="hidden md:flex items-center gap-6">
-            <a href="#home" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a href="/" className="text-foreground hover:text-primary transition-colors font-medium">
               {t.home}
             </a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a href="/about" className="text-foreground hover:text-primary transition-colors font-medium">
               {t.about}
             </a>
             <a href="#products" className="text-foreground hover:text-primary transition-colors font-medium">
               {t.products}
             </a>
-            <a href="#services" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a href="/services" className="text-foreground hover:text-primary transition-colors font-medium">
               {t.services}
             </a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a href="/contact" className="text-foreground hover:text-primary transition-colors font-medium">
               {t.contact}
             </a>
           </nav>
