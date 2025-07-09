@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Product } from "@/types/Product";
 import { useTranslation } from "@/contexts/TranslationContext";
+import { imageMap } from "@/data/products/imageMap"; // <-- Added import
 
 interface ProductCardProps {
   product: Product;
@@ -15,12 +16,16 @@ export const ProductCard = ({ product, onQuoteRequest }: ProductCardProps) => {
   const displayName = language === 'sw' ? product.nameSwahili : product.name;
   const displayDescription = language === 'sw' ? product.descriptionSwahili : product.description;
   
+  // Use imageMap for the image source
+  const filename = product.images?.[0];
+  const imageSrc = filename ? imageMap[filename] || '/placeholder.svg' : '/placeholder.svg';
+
   return (
     <Card className="group hover:shadow-lg transition-all duration-300 border-border bg-card">
       <CardHeader className="p-0">
         <div className="aspect-video overflow-hidden rounded-t-lg bg-muted">
           <img 
-            src={product.images[0]} 
+            src={imageSrc}
             alt={displayName}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />

@@ -29,7 +29,7 @@ export const tyreSystems: Product[] = [
       "Air Pressure": "≤10 bar",
       "Operation": "Fully Automatic"
     },
-    images: ["/api/placeholder/600/400"],
+     images: ["V9120-768x808.png"],
     inStock: true
   },
   {
@@ -60,7 +60,7 @@ export const tyreSystems: Product[] = [
       "Operation Mode": "Semi/Fully-automatic",
       "Warranty": "2 Years"
     },
-    images: ["/api/placeholder/600/400"],
+    images: ["V7120-768x868.png"],
     inStock: true
   },
   {
@@ -91,7 +91,7 @@ export const tyreSystems: Product[] = [
       "Construction": "Heavy-duty",
       "Warranty": "3 Years"
     },
-    images: ["/src/assets/v9220-tire-changer.jpg"],
+    images: ["V9220.jpg"],
     inStock: true
   },
   {
@@ -122,7 +122,7 @@ export const tyreSystems: Product[] = [
       "Display": "Digital",
       "Warranty": "2 Years"
     },
-    images: ["/api/placeholder/600/400"],
+    images: ["/api/placeholder/600/4"],
     inStock: true
   },
   {
@@ -153,7 +153,7 @@ export const tyreSystems: Product[] = [
       "Helper Arm": "Motorized",
       "Warranty": "3 Years"
     },
-    images: ["/src/assets/v600-pro-tire-changer.jpg"],
+    images: ["v600-pro-tire-changer.jpg"],
     inStock: true
   },
   {
@@ -184,7 +184,7 @@ export const tyreSystems: Product[] = [
       "Design": "Compact swing-arm",
       "Footprint": "Space-saving"
     },
-    images: ["/api/placeholder/600/400"],
+    images: ["CT226-768x768.jpg"],
     inStock: true
   },
   {
@@ -215,7 +215,7 @@ export const tyreSystems: Product[] = [
       "Helper Arms": "5-arm pneumatic",
       "Controls": "Digital"
     },
-    images: ["/api/placeholder/600/400"],
+    images: ["GT525-SE-768x768.jpg"],
     inStock: true
   },
   {
@@ -246,7 +246,7 @@ export const tyreSystems: Product[] = [
       "Helper System": "Motorized",
       "Warranty": "3 Years"
     },
-    images: ["/api/placeholder/600/400"],
+    images: ["GT526-PRO-768x768.jpg"],
     inStock: true
   },
   {
@@ -277,7 +277,7 @@ export const tyreSystems: Product[] = [
       "Display": "Digital",
       "Warranty": "2 Years"
     },
-    images: ["/api/placeholder/600/400"],
+    images: ["GT526-SE-768x768.jpg"],
     inStock: true
   },
   {
@@ -308,7 +308,7 @@ export const tyreSystems: Product[] = [
       "Helper Arm": "Pneumatic",
       "Warranty": "2 Years"
     },
-    images: ["/api/placeholder/600/400"],
+    images: ["GT526-768x768.jpg"],
     inStock: true
   },
   {
@@ -370,7 +370,7 @@ export const tyreSystems: Product[] = [
       "Helper System": "Motorized",
       "Warranty": "3 Years"
     },
-    images: ["/api/placeholder/600/400"],
+    images: ["GT325-PRO-768x768.jpg"],
     inStock: true
   },
   {
@@ -401,7 +401,7 @@ export const tyreSystems: Product[] = [
       "Wheel Protection": "Advanced",
       "Warranty": "3 Years"
     },
-    images: ["/api/placeholder/600/400"],
+     images: ["GT325-L-768x768.jpg"],
     inStock: true
   },
   {
@@ -432,7 +432,7 @@ export const tyreSystems: Product[] = [
       "Precision": "Enhanced mounting",
       "Warranty": "3 Years"
     },
-    images: ["/api/placeholder/600/400"],
+    images: ["GT325-R-768x768.jpg"],
     inStock: true
   }
 ];
