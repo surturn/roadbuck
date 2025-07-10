@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Product } from "@/types/Product";
 import { useTranslation } from "@/contexts/TranslationContext";
-import { imageMap } from "@/data/products/imageMap"; // <-- Added import
+import  {imageMap } from "@/data/products/imageMap"; // <-- Fixed import
 
 interface ProductCardProps {
   product: Product;
