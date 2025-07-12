@@ -2,9 +2,6 @@
 
 Welcome to the official repository for the **Roadbuck Catalogue Website** — a modern, mobile-responsive, service showcase built with Lovable and React.
 
-> ⚡ Built with [Lovable](https://lovable.dev) – Edit your app visually or through prompt-based changes.  
-> 🔗 Live Preview: [https://lovable.dev/projects/2a383256-f71c-493c-bcba-9cc650059c82](https://lovable.dev/projects/2a383256-f71c-493c-bcba-9cc650059c82)
-
 ---
 
 ## 🛠️ Project Features
