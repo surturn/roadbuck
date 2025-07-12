@@ -1,5 +1,4 @@
 // src/data/imageMap.ts
-
 import img1 from '../assets/2.jpg';
 import img2 from '../assets/CB150P.png';
 import img3 from '../assets/CB250P.png';
@@ -17,8 +16,6 @@ import img14 from '../assets/GT526-SE.jpg';
 import img15 from '../assets/V7120.png';
 import img16 from '../assets/V9120.png';
 import img17 from '../assets/V9220.jpg';
-
-
 export const imageMap: Record<string, string> = {
   '2.jpg': img1,
   'CB150P.png': img2,
