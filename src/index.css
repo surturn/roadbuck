@@ -18,10 +18,10 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 8%;
 
-    /* Primary: ROADBUCK Red */
-    --primary: 0 85% 45%;
+    /* Primary: ROADBUCK Blue (was Red) */
+    --primary: 220 85% 45%;
     --primary-foreground: 0 0% 98%;
-    --primary-hover: 0 85% 40%;
+    --primary-hover: 220 85% 40%;
 
     /* Secondary: Industrial Grey */
     --secondary: 0 0% 15%;
@@ -40,7 +40,7 @@ All colors MUST be HSL.
 
     --border: 0 0% 90%;
     --input: 0 0% 95%;
-    --ring: 0 85% 45%;
+    --ring: 220 85% 45%;
 
     /* Industrial Design System */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-hover)));

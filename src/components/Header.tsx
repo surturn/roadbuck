@@ -39,9 +39,11 @@ export const Header = () => {
           
           <div className="flex items-center gap-4">
             <LanguageToggle />
-            <Button size="sm" className="bg-primary hover:bg-primary-hover">
-              {t.callNow}
-            </Button>
+           <a href="tel:+254794817115">
+              <Button size="sm" className="bg-primary hover:bg-primary-hover">
+                {t.callNow}
+              </Button>
+            </a>
           </div>
         </div>
       </div>

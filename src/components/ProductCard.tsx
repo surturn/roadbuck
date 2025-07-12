@@ -71,13 +71,25 @@ export const ProductCard = ({ product, onQuoteRequest }: ProductCardProps) => {
         <Button variant="outline" size="sm" className="flex-1">
           {t.viewDetails}
         </Button>
-        <Button 
-          size="sm" 
-          className="flex-1 bg-primary hover:bg-primary-hover"
-          onClick={() => onQuoteRequest(product)}
-        >
-          {t.requestQuote}
-        </Button>
+    <Button 
+  size="sm" 
+  className="flex-1 bg-primary hover:bg-primary-hover"
+  onClick={() => {
+    const message = encodeURIComponent(
+      `Hi! I'd like to request a quote for:\n\n` +
+      `Product: ${product.name || 'Product Name'}\n` +
+      `${product.description ? `Description: ${product.description}\n` : ''}` +
+      `\nPlease let me know about:\n` +
+      `• Pricing\n` +
+      `• Availability\n` +
+      `• Delivery options\n\n` +
+      `Thank you!`
+    );
+    window.open(`https://wa.me/254794817115?text=${message}`, '_blank');
+  }}
+>
+  {t.requestQuote}
+</Button>
       </CardFooter>
     </Card>
   );
