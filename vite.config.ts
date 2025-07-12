@@ -7,6 +7,11 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    // Add history fallback for React Router
+    historyApiFallback: true,
+  },
+  build: {
+    outDir: "dist", // Needed for proper Vercel output
   },
   plugins: [
     react(),
