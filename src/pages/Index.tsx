@@ -34,13 +34,13 @@ const ProductsSection = () => {
   };
   
   return (
-    <section id="products" className="py-16 bg-background">
+    <section id="products" className="py-12 sm:py-16 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 sm:mb-4 px-2">
             {t.ourProducts}
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
             {language === 'sw' 
               ? "Tunapatikana na bidhaa za kisasa za ubora wa juu kwa mahitaji yako yote ya magari"
               : "Discover our comprehensive range of high-quality automotive equipment for all your professional needs"
@@ -48,7 +48,7 @@ const ProductsSection = () => {
           </p>
         </div>
         
-        <div className="mb-8">
+        <div className="mb-6 sm:mb-8">
           <ProductFilter
             selectedCategory={selectedCategory}
             onCategoryChange={setSelectedCategory}
@@ -57,7 +57,7 @@ const ProductsSection = () => {
           />
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
           {filteredProducts.map((product) => (
             <ProductCard
               key={product.id}
@@ -68,8 +68,8 @@ const ProductsSection = () => {
         </div>
         
         {filteredProducts.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-lg text-muted-foreground">
+          <div className="text-center py-8 sm:py-12">
+            <p className="text-base sm:text-lg text-muted-foreground px-4">
               {language === 'sw' ? "Hakuna bidhaa zilizopatikana" : "No products found"}
             </p>
           </div>
