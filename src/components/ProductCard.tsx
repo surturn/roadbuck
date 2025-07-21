@@ -84,7 +84,7 @@ export const ProductCard = ({ product, onQuoteRequest }: ProductCardProps) => {
               `• Delivery options\n\n` +
               `Thank you!`
             );
-            window.open(`https://wa.me/254794817115?text=${message}`, '_blank');
+            window.open(`https://wa.me/+254745037446?text=${message}`, '_blank');
           }}
         >
           {t.requestQuote}

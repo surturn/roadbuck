@@ -46,7 +46,7 @@ export const Header = () => {
           {/* Right Side - Desktop */}
           <div className="hidden lg:flex items-center gap-4">
             <LanguageToggle />
-            <a href="tel:+254794817115">
+            <a href="tel:+254745037446">
               <Button size="sm" className="bg-primary hover:bg-primary-hover">
                 {t.callNow}
               </Button>
@@ -56,7 +56,7 @@ export const Header = () => {
           {/* Mobile Right Side */}
           <div className="flex lg:hidden items-center gap-2">
             <LanguageToggle />
-            <a href="tel:+254794817115" className="hidden sm:block">
+            <a href="tel:+254745037446" className="hidden sm:block">
               <Button size="sm" className="bg-primary hover:bg-primary-hover text-xs px-3">
                 {t.callNow}
               </Button>
@@ -123,7 +123,7 @@ export const Header = () => {
                   
                   {/* Mobile Call Button */}
                   <div className="pt-4">
-                    <a href="tel:+254794817115" className="w-full block">
+                    <a href="tel:+254745037446" className="w-full block">
                       <Button className="w-full bg-primary hover:bg-primary-hover">
                         {t.callNow}
                       </Button>

@@ -8,40 +8,28 @@ const AboutContent = () => {
   
   const teamMembers = [
     {
-      name: "John Kamau",
+      name: "Mr. Swaleh Ali",
       role: language === 'sw' ? "Mkurugenzi Mkuu" : "Managing Director",
       description: language === 'sw' 
-        ? "Kwa uzoefu wa miaka 15+ katika sekta ya magari, John anaongoza maono yetu ya kubadilisha mfumo wa vifaa vya magari nchini Kenya."
-        : "With over 15 years in the automotive industry, John leads our vision to transform Kenya's automotive parts supply chain.",
-      email: "john@roadbuck.co.ke",
-      phone: "+254 700 123 456"
+        ? "Kwa uzoefu wa miaka 15+ katika sekta ya magari, Swaleh anaongoza maono yetu ya kubadilisha mfumo wa vifaa vya magari nchini Kenya."
+        : "With over 15 years in the automotive industry, Swaleh leads our vision to transform Kenya's automotive parts supply chain.",
+      phone: "+254 745 037446"
     },
-    {
-      name: "Sarah Wanjiku", 
-      role: language === 'sw' ? "Mkuu wa Uendeshaji" : "Head of Operations",
-      description: language === 'sw'
-        ? "Sarah anahakikisha uendeshaji mzuri katika mahali petu pote, akichangia miaka ya uzoefu wa logistics na mfumo wa usambazaji."
-        : "Sarah ensures smooth operations across all our locations, bringing 10 years of logistics and supply chain expertise.",
-      email: "sarah@roadbuck.co.ke", 
-      phone: "+254 700 123 457"
-    },
-    {
-      name: "David Ochieng",
+   {
+      name: "Brian",
       role: language === 'sw' ? "Mkurugenzi wa Kiufundi" : "Technical Director", 
       description: language === 'sw'
-        ? "David anaongoza timu yetu ya kiufundi kwa maarifa makuu ya mifumo ya magari na utangamano wa vifaa."
-        : "David leads our technical team with deep knowledge of automotive systems and parts compatibility.",
-      email: "david@roadbuck.co.ke",
-      phone: "+254 700 123 458"
+        ? "Brian anaongoza timu yetu ya kiufundi kwa maarifa makuu ya mifumo ya magari na utangamano wa vifaa."
+        : "Brian leads our technical team with deep knowledge of automotive systems and parts compatibility.",
+      phone: "+254 745 037446"
     },
     {
-      name: "Grace Njeri",
+      name: "Fatuma",
       role: language === 'sw' ? "Meneja wa Uhusiano wa Wateja" : "Customer Relations Manager",
       description: language === 'sw'
-        ? "Grace anahakikisha kila mteja anapokea huduma bora na msaada katika safari yao nasi."
-        : "Grace ensures every customer receives exceptional service and support throughout their journey with us.",
-      email: "grace@roadbuck.co.ke", 
-      phone: "+254 700 123 459"
+        ? "Fatuma anahakikisha kila mteja anapokea huduma bora na msaada katika safari yao nasi."
+        : "Fatuma ensures every customer receives exceptional service and support throughout their journey with us.",
+      phone: "+254 745 037446"
     }
   ];
   
@@ -86,7 +74,7 @@ const AboutContent = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             {language === 'sw' ? "Kuhusu ROADBUCK Kenya" : "About ROADBUCK Kenya"}
           </h1>
-          <p className="text-xl text-white/90 max-w-2xl mx-auto">
+          <p className="text-xl t\ext-white/90 max-w-2xl mx-auto">
             {language === 'sw' 
               ? "Mshirika wako wa kuaminika kwa ubora wa magari nchini Kenya"
               : "Your trusted partner for automotive excellence in Kenya"
@@ -145,7 +133,7 @@ const AboutContent = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {teamMembers.map((member, index) => (
               <Card key={index} className="border text-center">
                 <CardHeader>
@@ -162,8 +150,7 @@ const AboutContent = () => {
                     {member.description}
                   </p>
                   <div className="space-y-1 text-xs text-muted-foreground">
-                    <p>📧 {member.email}</p>
-                    <p>📞 {member.phone}</p>
+                 <p>📞 {member.phone}</p>
                   </div>
                 </CardContent>
               </Card>
