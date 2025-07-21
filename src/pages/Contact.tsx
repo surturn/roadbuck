@@ -16,14 +16,66 @@ const ContactContent = () => {
     message: ''
   });
   
+  const validateEmail = (email: string) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  const validatePhone = (phone: string) => {
+    const phoneRegex = /^[\+]?[0-9\s\-\(\)]{10,}$/;
+    return phoneRegex.test(phone.replace(/\s/g, ''));
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Validate email
+    if (!validateEmail(formData.email)) {
+      toast({
+        title: language === 'sw' ? "Kosa" : "Error",
+        description: language === 'sw' 
+          ? "Tafadhali ingiza barua pepe sahihi"
+          : "Please enter a valid email address",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    // Validate phone if provided
+    if (formData.phone && !validatePhone(formData.phone)) {
+      toast({
+        title: language === 'sw' ? "Kosa" : "Error", 
+        description: language === 'sw'
+          ? "Tafadhali ingiza nambari ya simu sahihi"
+          : "Please enter a valid phone number",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    // Construct WhatsApp message
+    const whatsappMessage = `*ROADBUCK*
+
+*Name:* ${formData.name}
+*Email:* ${formData.email}
+*Phone:* ${formData.phone || 'Not provided'}
+
+*Message:*
+${formData.message}`;
+
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+    const whatsappUrl = `https://wa.me/254700000000?text=${encodedMessage}`;
+    
+    // Open WhatsApp
+    window.open(whatsappUrl, '_blank');
+    
     toast({
-      title: language === 'sw' ? "Ujumbe Umetumwa" : "Message Sent",
+      title: language === 'sw' ? "Ujumbe Umeandaliwa" : "Message Prepared",
       description: language === 'sw' 
-        ? "Ujumbe wako umetumwa. Tutawasiliana nawe hivi karibuni."
-        : "Your message has been sent. We'll contact you soon.",
+        ? "WhatsApp imefunguliwa na ujumbe wako. Bonyeza 'Send' kwenye WhatsApp."
+        : "WhatsApp opened with your message. Click 'Send' in WhatsApp to complete.",
     });
+    
     setFormData({ name: '', email: '', phone: '', message: '' });
   };
   
