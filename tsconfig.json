@@ -1,7 +1,7 @@
 {
   "files": [],
   "references": [
-    { "path": "./tsconfig.app.json" },
+   
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
@@ -24,7 +24,8 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-   
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     "incremental": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
